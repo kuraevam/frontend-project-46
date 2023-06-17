@@ -1,7 +1,7 @@
 import path from 'path';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { describe, expect, test } from '@jest/globals';
-import genDiff from '../src/genDiff.js';
+import genDiff from '../src/gen-diff.js';
 
 describe('Test 1', () => {
   test('Сравнения плоских json-файлов', async () => {
