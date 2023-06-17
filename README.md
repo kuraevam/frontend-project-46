@@ -1,5 +1,8 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/kuraevam/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/kuraevam/frontend-project-46/actions)
+
+[![Actions Status](https://github.com/kuraevam/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/kuraevam/frontend-project-46/actions)  
+[![Maintainability](https://api.codeclimate.com/v1/badges/e0279eb757e2d7689963/maintainability)](https://codeclimate.com/github/kuraevam/frontend-project-46/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e0279eb757e2d7689963/test_coverage)](https://codeclimate.com/github/kuraevam/frontend-project-46/test_coverage)
 
 ### Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.
 
@@ -12,6 +15,7 @@ gendiff filepath1.json filepath2.json
 ```
 
 #### file1.json:
+
 ```json
 {
   "host": "hexlet.io",
@@ -22,6 +26,7 @@ gendiff filepath1.json filepath2.json
 ```
 
 #### file2.json:
+
 ```json
 {
   "timeout": 20,
@@ -31,6 +36,7 @@ gendiff filepath1.json filepath2.json
 ```
 
 #### Результат:
+
 ```
 {
   - follow: false
