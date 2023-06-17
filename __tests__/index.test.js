@@ -1,6 +1,6 @@
-/* global describe test expect */
-
 import path from 'path';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { describe, expect, test } from '@jest/globals';
 import genDiff from '../src/genDiff.js';
 
 describe('Test 1', () => {
