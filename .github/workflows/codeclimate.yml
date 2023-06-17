@@ -13,6 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: actions/setup-node@master
+    - run: |
+          npm i
 
     - name: Test & publish code coverage
       uses: paambaati/codeclimate-action@v4.0.0
