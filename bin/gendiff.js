@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from 'commander';
-import genDiff from '../src/Diff.js';
+import genDiff from '../src/genDiff.js';
 
 async function action() {
   const [filepath1, filepath2] = this.args;
