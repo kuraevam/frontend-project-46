@@ -18,6 +18,7 @@ jobs:
           node-version: 18
       - run: |
           npm i
+          ls -la
           npm run lint
   test:
     runs-on: ubuntu-latest
